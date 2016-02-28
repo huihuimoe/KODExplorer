@@ -50,6 +50,7 @@ var dialog_tpl_html = "<div class='update_box'>\
         </div>\
     </div>\
 </div>";
+/* 你奏凯！不用更新了！
 define(function(require, exports) {
 	var server_version = '3.01';//最新版本
 	var local_version  = G.version;
@@ -270,4 +271,4 @@ define(function(require, exports) {
 	return {
 		todo:todo
 	};
-});
+});*/

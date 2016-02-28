@@ -116,7 +116,7 @@ class app extends Controller{
         }
         if (!$result || strlen($result) == 0) {
             $result = $this->in['url'];
-            $result = str_replace(array('http://','&','/'),array('','@','-'), $result);
+            $result = str_replace(array('https://','&','/'),array('','@','-'), $result);
         }
         show_json($result);
     }

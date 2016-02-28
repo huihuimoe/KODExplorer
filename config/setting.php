@@ -31,8 +31,8 @@ $config['setting_default'] = array(
 //初始化系统配置
 $config['setting_system_default'] = array(
 	'system_password'	=> rand_string(10),
-	'system_name'		=> "KodExplorer",
-	'system_desc'		=> "——芒果云.资源管理器",
+	'system_name'		=> "loli云",//此处可自行修改
+	'system_desc'		=> "——loli云.资源管理器",
 	'path_hidden'		=> ".htaccess,.git,.DS_Store",//目录列表隐藏的项
 	'auto_login'		=> "1",			// 是否自动登录；登录用户为guest
 	'first_in'			=> "desktop",	// 登录后默认进入[explorer desktop,editor]
