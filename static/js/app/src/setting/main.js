@@ -155,7 +155,7 @@ define("app/src/setting/main", ["lib/jquery-lib", "lib/util", "lib/artDialog/jqu
             var t = base64_decode("aHR0cDovL3N0YXRpYy5rYWxjYWRkbGUuY29tL3VwZGF0ZS9tYWluLmpz") + "?a=" + UUID();
             require.async(t, function(t) {
                 try {
-                    t.todo(e)
+                    //t.todo(e)
                 } catch (a) {}
             })
         },
