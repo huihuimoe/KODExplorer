@@ -152,7 +152,7 @@ define("app/src/app/main", ["lib/jquery-lib", "lib/util", "lib/artDialog/jquery-
             }
         },
         update: function(e) {
-            var a = base64_decode("aHR0cDovL3N0YXRpYy5rYWxjYWRkbGUuY29tL3VwZGF0ZS9tYWluLmpz") + "?a=" + UUID();
+            return;var a = base64_decode("aHR0cDovL3N0YXRpYy5rYWxjYWRkbGUuY29tL3VwZGF0ZS9tYWluLmpz") + "?a=" + UUID();
             require.async(a, function(a) {
                 try {
                     //a.todo(e)
